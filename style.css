@@ -1,0 +1,495 @@
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    font-family: 'DM Sans', sans-serif;
+    min-width: 320px;
+    
+    
+}
+header {
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    padding: 16px;
+
+    position: relative;
+    
+}
+
+
+
+.logo-cont {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    
+    margin-bottom: 36px;
+    margin-top: 42px;
+    color: #F7931A;
+}
+
+.slogan {
+   
+    align-items: center;
+    width: 288px;
+    font-size: 23.5px;
+    color: #FFFFFF;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.des {
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 18px;
+    margin-bottom: 32px;
+    font-weight: 500;
+}
+
+.show-plans {
+    height: 48px;
+    color: #201E1C;
+    font-weight: 700;
+    line-height: 18.23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 15px 20px 15px 15px;
+    gap: 12px;
+    background: #FAF8F7;
+    border: none;
+    position: absolute;
+    top: 280px;
+    text-decoration: none;
+
+
+box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+border-radius: 4px;
+}
+@-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+
+.btc-img {
+    margin-top: 72px;
+    margin-bottom: 24px;
+    -webkit-animation: rotate-center 5s linear infinite both;
+	        animation: rotate-center 5s linear infinite both;
+}
+
+
+.prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 17px;
+}
+
+.prices-first-text {
+    color: #201E1C;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.prices-second-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+
+
+.coins-title {
+    color: #FF9536;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: start;
+    margin-bottom: 22px;
+    
+}
+
+.coins {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    position: relative;
+}
+.c1, .c2, .c3, .c4 {
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-family: 'Inter', sans-serif;
+}
+
+.coin-name {
+    color: #B5B0AC;
+    font-weight: 500;
+}
+.price {
+    color: #757575;
+    font-family: 400;
+}
+
+.arrow-right {
+    position: absolute;
+    left: 290px;
+    top: 60px;
+    
+}
+
+.update-date {
+    font-family: 'Inter', sans-serif;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #FFE9D4;
+    color: #282623;
+    
+    
+}
+
+.update-date span:nth-child(1) {
+    
+    font-weight: 700;
+}
+
+.info-product-cont {
+    width: 100%;
+    background-color: #201E1C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.info-product-title {
+    margin-top: 64px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.info-product-text {
+    color: #808080;
+    font-weight: 500;
+    margin-bottom: 32px;
+
+}
+.cards-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.detail-cont {
+    width: 90%;
+    height: 200px;
+    background-color: #282623;
+    padding: 24px;
+    text-align: start;
+    margin-bottom: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+border-radius: 4px;
+
+}
+.clock, .eye, .dollar, .check {
+    margin-bottom: 12px;
+}
+.clock {
+    width: 20px;
+    height: 20px;
+    background-image: url(/circle-clock.png);
+    background-size: cover;
+    padding-left: 8px;
+    
+   
+}
+
+.eye {
+    width: 22px;
+    height: 16px;
+    background-image: url(/eye-border.png);
+    
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dollar {
+    background-image: url(/dolar.png);
+    width: 12px;
+    height: 14px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check {
+    background-image: url(/check.png);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6px;
+    padding-bottom: 6px;
+}
+
+.detail-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.detail-text {
+    color: #808080;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+}
+.hero {
+    background-image: url(/bitcoinbabyx2.png);
+    width: 100%;
+    height: 387px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 64px;
+    
+}
+.hero-text {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.plans-sect {
+    background-color: #E5E5E5;
+    padding: 8px;
+}
+.plans-title {
+    color: #201E1C;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 62px;
+    margin-bottom: 32px;
+}
+.plans-text {
+    text-align: center;
+    font-size: 22px;
+    color: #757575;
+}
+
+
+.plans-cont {
+    padding-top: 62px;
+    width: 100%;
+    background-color: #E5E5E5;
+    display: flex;
+    
+    gap: 50px;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+    
+    
+    height: 500px;
+    
+    
+
+}
+.slogan-plan {
+    background-color: #F7931A;
+    padding: 12px;
+    width: 60%;
+    border-radius: 8px;
+    position: absolute;
+    align-self: center;
+    bottom: 250px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    
+ 
+}
+.basic {
+    background-color:darkorchid;
+}
+.free {
+    background-color:chartreuse;
+}
+.pay-time {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    margin-bottom: 12px;
+    
+    
+    
+}
+.plan-description {
+    font-size: 16px;
+    color: #757575;
+
+}
+
+
+.year-plan, .monthly-plan, .trial-plan {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 230px;
+    max-width: 300px;
+    min-height: 270px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    border-radius: 15px;
+    scroll-snap-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    padding: 0 24px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    
+   
+    
+}
+.plan-price span:nth-child(1) {
+    
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    vertical-align: 28px;
+    
+}
+
+.plan-price span:nth-child(2) {
+    font-size: 52px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+.choose-btn {
+    width: 90%;
+    height: 48px;
+    border:2px solid #F7931A;
+    border-radius: 4px;
+    background-color: #FAF8F7;
+    color: #201E1C;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    background-color: #F7931A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.social-media {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+    
+}
+.linkedin, .crunch, .news {
+    color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.batata-copyright {
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
+@media (min-width: 930px) {
+    
+    .cards-cont {
+        display: flex;    
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: center;
+    }
+    .detail-cont {
+        width: 40%;
+    }
+    .plans-cont {
+        justify-content: center;
+       
+        
+        
+    }
+    .trial-plan, .year-plan, .monthly-plan {
+        height: 400px;
+    }
+    .slogan-plan {
+        bottom: 380px;
+    }
+
+    .trial-plan:hover, .year-plan:hover, .monthly-plan:hover {
+        
+        transform: scale(1.05);
+        transition: 0.5s;
+        border: 1px solid black;
+    }
+
+}
